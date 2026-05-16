@@ -14,7 +14,10 @@
                     "--bin=rust-test"
                 ]
             },
-            "args": []
+            "args": [],
+            "initCommands": [
+                "settings set target.disable-aslr false"
+            ]
         },
         {
             "name": "Debug unit tests in executable 'rust-test'",
@@ -25,10 +28,10 @@
                     "test",
                     "--bin=rust-test"
                 ]
-            }
+            },
+            "initCommands": [
+                "settings set target.disable-aslr false"
+            ]
         }
     ],
-    "initCommands": [
-        "settings set target.disable-aslr false"
-    ]
 }
