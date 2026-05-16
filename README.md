@@ -23,6 +23,8 @@ This will build the container according to the specs defined in `.devcontainer/d
 - Click the "Start Debugging" button
 - Observe that a new terminal opens and "Hello, world!" is printed to STDOUT
 
+Alternatively, you can open this repo in a GitHub Codespace and start at the "Run and Debug" step.
+
 ### Repo structure
 
 ```
