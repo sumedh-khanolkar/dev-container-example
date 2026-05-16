@@ -1,5 +1,9 @@
 Test Rust project in dev container
 
+### What is a dev container?
+
+A dev container is a development environment inside a container. The idea is that your base machine is protected from any untoward changes introduced by the development process like certain types of supply chain attacks. The authoritative source is [containers.dev](https://containers.dev/).
+
 ### Pre-Requisites
 
 - Install Docker engine (WSL users see below)
